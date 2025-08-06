@@ -259,10 +259,10 @@
             <div class="grid grid-cols-1 gap-y-6 py-14 lg:gap-y-4">
                 <div class="grid grid-cols-1 p-6 gap-y-6 md:grid-cols-2 md:gap-x-6 lg:px-32">
                     <div class="grid grid-cols-2 gap-4 h-full md:gap-6">
-                        <img class="rounded-lg object-cover w-full h-full" src="images/slide1.jpg" alt="">
-                        <img class="rounded-lg object-cover w-full h-full" src="images/slide2.jpg" alt="">
-                        <img class="rounded-lg object-cover w-full h-full" src="images/slide3.jpg" alt="">
-                        <img class="rounded-lg object-cover w-full h-full" src="images/cateringayamgulai.jpg" alt="">
+                        <img class="rounded-lg object-cover w-full h-full" src="images/toko1.jpg" alt="">
+                        <img class="rounded-lg object-cover w-full h-full" src="images/toko2.png" alt="">
+                        <img class="rounded-lg object-cover w-full h-full" src="images/toko3.png" alt="">
+                        <img class="rounded-lg object-cover w-full h-full" src="images/toko4.png" alt="">
                     </div>
 
                     <div
@@ -314,10 +314,10 @@
                     </div>
 
                     <div class="grid grid-cols-2 gap-4 h-full md:gap-6">
-                        <img class="rounded-lg object-cover w-full h-full" src="images/foto1.jpg" alt="">
-                        <img class="rounded-lg object-cover w-full h-full" src="images/foto1.jpg" alt="">
-                        <img class="rounded-lg object-cover w-full h-full" src="images/foto1.jpg" alt="">
-                        <img class="rounded-lg object-cover w-full h-full" src="images/foto1.jpg" alt="">
+                        <img class="rounded-lg object-cover w-full h-full" src="images/toko1.jpg" alt="">
+                        <img class="rounded-lg object-cover w-full h-full" src="images/toko3.png" alt="">
+                        <img class="rounded-lg object-cover w-full h-full" src="images/toko4.png" alt="">
+                        <img class="rounded-lg object-cover w-full h-full" src="images/toko2.png" alt="">
                     </div>
                 </div>
             </div>
