@@ -3,14 +3,17 @@
     {{-- Start Main --}}
     @section('page')
         {{-- Start Main --}}
-        <main class="h-screen bg-catering font-poppins flex items-center">
-            <div class="absolute inset-0 bg-black opacity-40 z-0 h-screen"></div>
-            <div class="relative text-slate-100 z-10 flex flex-col items-start pl-4">
-                <h2 class="text-xl md:text-3xl">Selamat Datang Di</h2>
-                <h1 class="text-3xl font-semibold text-[#00BCB5] md:text-5xl">Wedrink
-                    <p class="text-md md:text-lg">We Drink, We Share, We Care.</p>
-            </div>
-        </main>
+        <main class="h-screen bg-catering font-poppins flex items-end">
+    <div class="absolute inset-0 bg-black opacity-40 z-0 h-screen"></div>
+
+    <div class="relative text-slate-100 z-10 flex flex-col items-start pl-4 pb-20">
+        <h2 class="text-3xl md:text-5xl mb-2">Selamat Datang Di</h2>
+        <h1 class="text-5xl md:text-7xl font-bold mb-2 text-[#00BCB5]">Wedrink</h1>
+        <p class="text-xl md:text-3xl">We Drink, We Share, We Care.</p>
+    </div>
+</main>
+
+
         {{-- End Main --}}
 
         <div class="flex">
@@ -35,13 +38,13 @@
                     </p>
                 </div>
 
-                <div id="profil" class="px-6 lg:px-10 pb-10 grid grid-cols-1 md:grid-cols-2 gap-6 lg:pb-10">
+                <div class="px-6 lg:px-10 pb-10 grid grid-cols-1 md:grid-cols-2 gap-6 lg:pb-10">
                     <div
                         class="md:col-span-2 p-10 bg-slate-100 border border-gray-200 rounded-lg shadow flex flex-col items-center w-full">
                         <!-- Judul -->
-                        <div class="text-center space-y-3 px-5 mb-6">
+                        <div id="profil" class="text-center space-y-3 px-5 mb-6">
                             <h5 class="-mb-5 text-3xl font-euphoria tracking-tight text-gray-900 lg:text-4xl">Mengenal</h5>
-                            <h1 class="text-3xl mb-3 font-bold uppercase text-gray-700 lg:text-3xl">kisah kami</h1>
+                            <h1 class="text-3xl mb-3 font-bold uppercase text-gray-700 lg:text-3xl">Profil Wedrink</h1>
                             <!-- Icon -->
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="h-7 mx-auto">
@@ -142,8 +145,10 @@
 
 
                 {{-- Start Section: Client Kami --}}
+
                 <section class="bg-slate-100 font-poppins">
-                    <div class="px-6 lg:px-10 py-10 max-w-screen-lg mx-auto">
+
+                    <div id="clientkami" class="px-6 lg:px-10 py-10 max-w-screen-lg mx-auto">
                         <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">Client Kami</h2>
                         <p class="text-center text-gray-600 mb-10">
                             Kami bangga telah dipercaya oleh berbagai mitra bisnis dan institusi dalam menyediakan minuman
@@ -152,38 +157,38 @@
 
                         <div class="grid grid-cols-2 md:grid-cols-4 gap-6 items-center justify-center">
                             <div class="bg-white p-4 border border-gray-200 rounded-lg shadow text-center">
-                                <img src="{{ asset('images/client1.png') }}" alt="Client 1"
+                                <img src="{{ asset('images/hotel.jfif') }}" alt="Client 1"
                                     class="mx-auto h-20 object-contain">
                                 <p class="mt-2 text-sm font-semibold">Hotel Grand Mercure</p>
                             </div>
                             <div class="bg-white p-4 border border-gray-200 rounded-lg shadow text-center">
-                                <img src="{{ asset('images/client2.png') }}" alt="Client 2"
-                                    class="mx-auto h-20 object-contain">
+                                <img src="{{ asset('images/ui.jfif') }}" alt="Client 2" class="mx-auto h-20 object-contain">
                                 <p class="mt-2 text-sm font-semibold">Universitas Indonesia</p>
                             </div>
                             <div class="bg-white p-4 border border-gray-200 rounded-lg shadow text-center">
-                                <img src="{{ asset('images/client3.png') }}" alt="Client 3"
+                                <img src="{{ asset('images/tokopedia.jfif') }}" alt="Client 3"
                                     class="mx-auto h-20 object-contain">
                                 <p class="mt-2 text-sm font-semibold">PT Tokopedia</p>
                             </div>
                             <div class="bg-white p-4 border border-gray-200 rounded-lg shadow text-center">
-                                <img src="{{ asset('images/client4.png') }}" alt="Client 4"
+                                <img src="{{ asset('images/rsu.jfif') }}" alt="Client 4"
                                     class="mx-auto h-20 object-contain">
                                 <p class="mt-2 text-sm font-semibold">RSUP Dr. Sardjito</p>
                             </div>
                         </div>
                     </div>
-                </section>
-                {{-- End Section: Client Kami --}}
+        </div>
+        </section>
+        {{-- End Section: Client Kami --}}
 
 
 
 
-            </section>
+        </section>
 
 
 
-            {{-- End Section I --}}
+        {{-- End Section I --}}
         </div>
 
         {{-- Start Section II --}}

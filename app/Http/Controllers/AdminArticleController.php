@@ -10,7 +10,7 @@ class AdminArticleController extends Controller
     {
         $articles = Article::query()
             ->when(request('status'), function ($query) {
-                $query->where('status', request('status') == 'publish' ? 'PUBLISHED' : 'DRAFT');
+                $query->where('status', request('status') == 'publish' ? 'PUBLISH' : 'DRAFT');
             })
             ->when(request('keyword'), function ($query) {
                 $query->where('title', 'like', '%' . request('keyword') . '%');

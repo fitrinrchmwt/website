@@ -159,7 +159,7 @@
                             </div>
                         </div>
 
-                        <p class="mt-5 text-sm text-gray-500">© 2024  Wedrink</p>
+                        <p class="mt-5 text-sm text-gray-500">© 2025 Wedrink</p>
                     <!-- End Card -->
 
                     <!-- Hidden Input for WhatsApp Message -->
