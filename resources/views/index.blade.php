@@ -132,7 +132,7 @@
 
                     <div>
                         <h3 class="text-xl font-semibold text-gray-700">Misi</h3>
-                        <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                        <ul class="list-decimal list-inside text-gray-600 mt-2 space-y-1">
                             <li>Menyediakan produk minuman berkualitas tinggi dengan bahan alami dan proses yang higienis.
                             </li>
                             <li>Mengedepankan inovasi dalam pengembangan rasa dan kemasan yang menarik.</li>

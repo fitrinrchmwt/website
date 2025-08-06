@@ -43,7 +43,7 @@ class MenuItemsTableSeeder extends Seeder
             'menu_number' => '3',
             'type' => 'Makanan',
             'stock' => 12,
-            'slug' => Str::slug('Paket Ayam Gulai'),
+            'slug' => Str::slug('wedrink coklat'),
         ]);
     }
 }
