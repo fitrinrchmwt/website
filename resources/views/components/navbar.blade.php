@@ -36,8 +36,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{ url('/aboutus') }}"
-                        class="block py-2 px-3 md:p-2 rounded {{ $activePage === 'aboutus' ? 'bg-[#00BCB5] text-slate-100' : 'hover:text-slate-100 hover:bg-[#00BCB5]' }} md:hover:bg-transparent md:hover:text-[#00BCB5] md:transition-colors md:duration-500 md:ease-in-out md:text-lg md:text-slate-100">
+                    <a href="#aboutus"
+                        class="block py-2 px-3 md:p-2 rounded  md:hover:bg-transparent md:hover:text-[#00BCB5] md:transition-colors md:duration-500 md:ease-in-out md:text-lg md:text-slate-100">
                         Tentang Kami
                     </a>
                 </li>

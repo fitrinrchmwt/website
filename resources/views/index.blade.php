@@ -90,7 +90,7 @@
 
 
                 {{-- Start Section: Tentang Kami --}}
-                <section class="bg-slate-100 font-poppins">
+                <section id="aboutus" class="bg-slate-100 font-poppins">
                     <div class="px-6 lg:px-10 py-10 max-w-screen-lg mx-auto">
                         <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">Tentang Kami</h2>
                         <p class="text-center text-gray-600 mb-10">
