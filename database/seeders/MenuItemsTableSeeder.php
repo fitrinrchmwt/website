@@ -19,7 +19,7 @@ class MenuItemsTableSeeder extends Seeder
             'description' => 'seger',
             'photo' => 'foto1.png',
             'menu_number' => '1',
-            'type' => '',
+            'type' => 'Minuman',
             'stock' => 5,
             'slug' => Str::slug('Wedrink Jeruk'),
         ]);
@@ -30,7 +30,7 @@ class MenuItemsTableSeeder extends Seeder
             'description' => 'Segarr',
             'photo' => 'foto2.png',
             'menu_number' => '2',
-            'type' => 'Makanan',
+            'type' => 'Minuman',
             'stock' => 10,
             'slug' => Str::slug('Wedrink Anggur'),
         ]);
@@ -41,7 +41,7 @@ class MenuItemsTableSeeder extends Seeder
             'description' => 'Minuman Segarrr dan manis',
             'photo' => 'foto4.jfif',
             'menu_number' => '3',
-            'type' => 'Makanan',
+            'type' => 'Minuman',
             'stock' => 12,
             'slug' => Str::slug('wedrink coklat'),
         ]);
