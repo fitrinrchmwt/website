@@ -3,7 +3,7 @@
     {{-- Start Main --}}
     @section('page')
         {{-- Start Main --}}
-        <main class="h-screen bg-catering font-poppins flex items-end">
+        <main class="h-screen bg-wedrink font-poppins flex items-end">
     <div class="absolute inset-0 bg-black opacity-40 z-0 h-screen"></div>
 
     <div class="relative text-slate-100 z-10 flex flex-col items-start pl-4 pb-20">
@@ -193,7 +193,7 @@
 
         {{-- Start Section II --}}
         <section class="bg-slate-100 font-poppins">
-            <div class="relative bg-catering2">
+            <div class="relative bg-wedrink2">
                 <div class="absolute inset-0 bg-black opacity-40 z-0"></div>
                 <div class="relative p-20 text-slate-100 text-center z-10">
                     <h1 class="font-euphoria text-5xl">Berbagai</h1>
@@ -248,7 +248,7 @@
 
         {{-- Start Section III --}}
         <section class="bg-slate-100 font-poppins">
-            <div class="relative bg-catering3">
+            <div class="relative bg-wedrink3">
                 <div class="absolute inset-0 bg-black opacity-40 z-0"></div>
                 <div class="relative p-20 text-slate-100 text-center z-10">
                     <h1 class="font-euphoria text-5xl">Berbagai</h1>

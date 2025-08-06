@@ -65,21 +65,21 @@
             font-family: "Euphoria Script", cursive;
         }
 
-        .bg-catering {
+        .bg-wedrink {
             background-image: url('{{ asset('images/banner1.jpg') }}');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
         }
 
-        .bg-catering2 {
+        .bg-wedrink2 {
             background-image: url('{{ asset('images/banner2.jpg') }}');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
         }
 
-        .bg-catering3 {
+        .bg-wedrink3 {
             background-image: url('{{ asset('images/banner3.jpg') }}');
             background-size: cover;
             background-position: center;

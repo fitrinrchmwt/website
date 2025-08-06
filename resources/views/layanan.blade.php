@@ -1,7 +1,7 @@
 <x-layout :title="$title" :activePage="$activePage">
     @section('page')
         {{-- Start Main --}}
-        <main class="relative h-[60vh] bg-cover bg-center overflow-x-hidden bg-catering md:h-[75vh]">
+        <main class="relative h-[60vh] bg-cover bg-center overflow-x-hidden bg-wedrink md:h-[75vh]">
             <!-- Overlay hitam dengan opacity -->
             <div class="absolute inset-0 bg-black opacity-40"></div>
             <!-- Konten di atas background -->
@@ -74,7 +74,7 @@
         {{-- End Section I --}}
 
         {{-- Start Section II --}}
-        <section class="relative bg-catering2 bg-cover bg-center bg-fixed lg:h-auto">
+        <section class="relative bg-wedrink2 bg-cover bg-center bg-fixed lg:h-auto">
             <div class="absolute inset-0 bg-black opacity-50"></div>
             <div class="relative z-10 flex items-center justify-center h-full lg:h-auto">
                 <div class="text-center px-14 w-full bg-black bg-opacity-80 py-10 font-poppins space-y-3 lg:px-8 lg:py-16">
@@ -83,7 +83,7 @@
                     <div class="text-lg space-y-3">
                         <div class="text-slate-100">Nikmati Minuman segar untuk setiap acara spesial Anda dengan <br
                                 class="hidden lg:block"> layanan
-                            catering profesional, berkualitas, dan beragam menu.</div>
+                            wedrink profesional, berkualitas, dan beragam menu.</div>
                         <div>
                             <a href="/pemesanan" class="text-[#00BCB5] -400 underline font-semibold">Pesan Sekarang</a>
                         </div>

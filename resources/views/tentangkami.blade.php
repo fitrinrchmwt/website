@@ -81,7 +81,7 @@
         {{-- End Statistik --}}
 
         {{-- Start Ajakan --}}
-        <section class="relative bg-catering2 bg-cover bg-center bg-fixed h-auto">
+        <section class="relative bg-wedrink2 bg-cover bg-center bg-fixed h-auto">
             <div class="absolute inset-0 bg-black opacity-50"></div>
             <div class="relative z-10 flex items-center justify-center h-full py-16">
                 <div class="text-center text-white font-poppins px-6 space-y-3 bg-black bg-opacity-70 rounded-lg py-10">

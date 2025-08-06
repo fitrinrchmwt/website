@@ -155,7 +155,7 @@
                             </p>
                             <div class="mt-2">
                                 <p class="block text-sm font-medium text-gray-800">wedrink.com</p>
-                                <p class="block text-sm font-medium text-gray-800"> 0895380190469</p>
+                                <p class="block text-sm font-medium text-gray-800"> 089xxxxxxx</p>
                             </div>
                         </div>
 

@@ -89,12 +89,6 @@
                             </a>
                         </li>
                         <li>
-                            <a href="{{ route('layanan') }}"
-                                class="block py-2 px-3 transition hover:text-[#00BCB5] -400 {{ $activePage === 'layanan' ? 'text-[#00BCB5] -400' : 'text-slate-100' }}">
-                                Layanan
-                            </a>
-                        </li>
-                        <li>
                             <a href="{{ route('pemesanan') }}"
                                 class="block py-2 px-3 transition hover:text-[#00BCB5] -400 {{ $activePage === 'produk' ? 'text-[#00BCB5] -400' : 'text-slate-100' }}">
                                 Produk
@@ -150,7 +144,7 @@
                                 Terbaru!</h2>
 
                             <p class="mt-2 text-gray-500 font-poppins pr-8">Masukkan nomor whatsapp anda di bawah untuk
-                                berlangganan informasi dan promosi terbaru seputar Webrink.</p>
+                                berlangganan informasi dan promosi terbaru seputar Wedrink.</p>
                         </div>
                         <div class="col-span-2 lg:col-span-3 lg:flex lg:items-end">
                             <form class="w-full" name="submit-to-google-sheet">
@@ -176,7 +170,7 @@
                                     </svg>
                                     <span class="sr-only">Info</span>
                                     <div><span class="font-medium">Berhasil!</span> Nomormu telah masuk dalam
-                                        daftar berlangganan informasi seputar  Catering.</div>
+                                        daftar berlangganan informasi seputar  wedrink.</div>
                                 </div>
                             </form>
                         </div>
@@ -185,7 +179,7 @@
             </div>
         </div>
 
-        <p class="text-sm text-slate-100 font-poppins">&copy; 2024.  Catering. All rights reserved.</p>
+        <p class="text-sm text-slate-100 font-poppins">&copy; 2024.  wedrink. All rights reserved.</p>
         <script>
             const scriptURL =
                 "https://script.google.com/macros/s/AKfycbyEoqXt8Q_y60RYTTQ52rwOWSXOH8340oGaHOEtxV7MokuK0MrQmcrqry4c0T4gOeyF/exec";
